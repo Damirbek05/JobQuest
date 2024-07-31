@@ -8,6 +8,7 @@ public class Post {
     private String desc;
     private int exp;
     private String techs[];
+    private String f[];
 
 
     public Post() {
@@ -43,6 +44,9 @@ public class Post {
 
     public void setTechs(String[] techs) {
         this.techs = techs;
+    }
+    public void setF(String[] f){
+        this.f = f;
     }
 
     @Override
