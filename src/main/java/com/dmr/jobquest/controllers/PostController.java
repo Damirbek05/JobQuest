@@ -20,7 +20,7 @@ public class PostController {
 
 
 
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/swagger")
     public void redirect(HttpServletResponse response) throws IOException {
         response.sendRedirect("/swagger-ui.html");
     }

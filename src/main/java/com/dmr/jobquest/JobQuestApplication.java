@@ -10,6 +10,7 @@ public class JobQuestApplication {
     public static void main(String[] args) {
         SpringApplication.run(JobQuestApplication.class, args);
 
+
     }
 
 }
